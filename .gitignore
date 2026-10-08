@@ -1,0 +1,45 @@
+# === Keil MDK 编译输出目录 ===
+Objects/
+Listings/
+DebugConfig/
+
+# === 编译生成的中间文件和目标文件 ===
+*.o
+*.obj
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.crf
+*.d
+*.dep
+*.lnp
+*.plg
+*.build_log.htm
+*.htm
+*.i
+*.sct
+*.scvd
+
+# === Keil 项目个人配置（必须忽略，否则会频繁冲突）===
+*.uvguix.*
+*.uvgui.*
+*.uvoptx
+*.bak
+*.tmp
+
+# === 调试器相关文件 ===
+*.jlink
+*.ini
+
+# === 操作系统和编辑器临时文件 ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# === 日志文件 ===
+*.log
